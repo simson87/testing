@@ -1,0 +1,43 @@
+/*** Message from MD ***/
+.director-img {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.director-img:hover {
+    transform: translateY(-5px);
+}
+
+.message-quote {
+    position: relative;
+    line-height: 1.8;
+}
+
+.signature {
+    font-family: 'Brush Script MT', cursive;
+    /* Fallback to cursive if specific font not loaded */
+    font-size: 2rem;
+}
+
+/*** About Page Styles ***/
+.mission-vision-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mission-vision-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1) !important;
+}
+
+.icon-box {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 32px;
+}
+
+.goals-section {
+    background: linear-gradient(rgba(4, 50, 110, 0.9), rgba(4, 50, 110, 0.9)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
